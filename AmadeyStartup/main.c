@@ -83,7 +83,14 @@ int main() {
 #endif
 		return -1;
 	}
-
+	
+	status = RegCloseKey(key);
+	if (status != ERROR_SUCCESS){
+#ifdef SHOW_DEBUG_INFORMATION
+		printf("RegCloseKey status: %d, GetLastError(): %d", status, GetLastError());
+#endif
+		return -1;
+	}
 #ifdef SHOW_DEBUG_INFORMATION
 	getchar();
 #endif
