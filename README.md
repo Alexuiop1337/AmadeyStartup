@@ -1,3 +1,4 @@
-# AmadeyStartup
-PoC of Amadey startup algorithm\n
+# AmadeyStartup 
+PoC of Amadey startup algorithm
+
 Статья скоро...
