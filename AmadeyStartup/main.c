@@ -84,6 +84,7 @@ int main() {
 		return -1;
 	}
 	
+	_free(realPath);
 	status = RegCloseKey(key);
 	if (status != ERROR_SUCCESS){
 #ifdef SHOW_DEBUG_INFORMATION
