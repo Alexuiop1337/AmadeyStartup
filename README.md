@@ -1,4 +1,4 @@
 # AmadeyStartup 
 PoC of Amadey startup algorithm
 
-Статья скоро...
+https://telegra.ph/Amadey-Loader---PoC-avtozagruzki-06-02
